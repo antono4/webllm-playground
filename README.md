@@ -33,3 +33,7 @@ license: apache-2.0
 ## Model Selector
 
 ![Model Selector](./model-playground.png)
+
+---
+
+> **Created by Antono**
