@@ -1,39 +1,67 @@
----
-title: WebLLM Playground
-emoji: 🏎️
-colorFrom: purple
-colorTo: indigo
-sdk: static
-pinned: true
-header: mini
-license: apache-2.0
----
-![WebLLM Playground](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/webllm/WebLLM.png)
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-<div align="center">
+<h1 align="center">Vite + React + TS 👋</h1>
 
-**WebLLM Playground** is built on top of [MLC-LLM](https://github.com/mlc-ai/mlc-llm) and [WebLLM Chat](https://github.com/mlc-ai/web-llm-chat).
+<p align="center">
+  <strong>Vite + React + TS</strong>
+</p>
 
-[![NPM Package](https://img.shields.io/badge/NPM_Package-Published-cc3534)](https://www.npmjs.com/package/@mlc-ai/web-llm)
-[!["WebLLM Chat Deployed"](https://img.shields.io/badge/WebLLM_Chat-Deployed-%2332a852)](https://chat.webllm.ai/)
-[![Join Discoard](https://img.shields.io/badge/Join-Discord-7289DA?logo=discord&logoColor=white)]("https://discord.gg/9Xpy2HGBuD")
-[![Related Repository: WebLLM Chat](https://img.shields.io/badge/Related_Repo-WebLLM_Chat-fafbfc?logo=github)](https://github.com/mlc-ai/web-llm-chat/)
-[![Related Repository: MLC LLM](https://img.shields.io/badge/Related_Repo-MLC_LLM-fafbfc?logo=github)](https://github.com/mlc-ai/mlc-llm/)
----
-
-
-</div>
-
-![WebLLM Gif](./webllm.gif)
-
-## Chat Stats
-
-![Chat Stats](./chat-stats.png)
-
-## Model Selector
-
-![Model Selector](./model-playground.png)
+<p align="center">
+  <a href="https://github.com/antono4/webllm-playground"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/webllm-playground-blue?logo=github"></a>
+  <a href="https://antono4.github.io/webllm-playground/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-48-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-08-13 11:26:07 WIB-lightgrey">
+</p>
 
 ---
 
-> **Created by Antono**
+## 📖 Tentang
+
+Repository **`webllm-playground`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/webllm-playground/`](https://antono4.github.io/webllm-playground/).
+
+## 🗂️ Struktur Proyek
+
+```
+webllm-playground/
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
+```
+
+## 🛠️ Teknologi
+
+Berdasarkan isi repository, proyek ini menggunakan:
+
+- `HTML`
+- `CSS`
+- `JavaScript`
+- `React`
+
+> Total **48 file** terdeteksi di repository.
+
+## 🚀 Menjalankan Secara Lokal
+
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
+
+```bash
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
+```
+
+## 📬 Kontak
+
+- GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/webllm-playground/](https://antono4.github.io/webllm-playground/)
+
+## 📄 Lisensi
+
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
+
+---
+
+<sub>README ini di-generate otomatis pada **2026-08-13 11:26:07 WIB** oleh GitHub Actions .</sub>
